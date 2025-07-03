@@ -26,9 +26,9 @@ enemyX = []
 enemyY = []
 enemyX_change = []
 enemyY_change = []
-num_of_enemies = 6
+num_of_enemies = 10
 for i in range(num_of_enemies):
-  enemyImg.append(pygame.image.load("enemy.png"))
+  enemyImg.append(pygame.image.load("enemy.png.png"))
   enemyX.append(random.randint(0, SCREEN_WIDTH - 64))
   enemyY.append(random.randint(ENEMY_START_Y_MIN, ENEMY_START_Y_MAX))
   enemyX_change.append(ENEMY_SPEED_X)
